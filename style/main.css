@@ -1,0 +1,157 @@
+.font {
+  font-family: 'EB Garamond', serif;
+font-family: 'Gilda Display', serif;
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Italianno', cursive;
+font-family: 'Livvic', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Ovo', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+@media only screen and (min-width: 400px) {
+    nav {
+      display: flex;
+      position: relative;
+      background-color: #B57EDC;
+      padding:10px; }
+
+    nav ul {
+      margin: 1; }
+
+    nav a {
+      font-size:20px;
+      color: white;
+      font-family:'Playfair display';
+      text-decoration: none;
+     }
+
+    nav li {
+      display: inline-block;
+      margin-left: 180px;
+       }
+
+    nav a:hover {
+      color: #37FF59; }
+
+    body{
+      background-image: linear-gradient(#710097 20%, #eee0f4 0%);
+      }
+
+    h1{
+      text-align:center;
+      font-family:'Sacramento';
+      color:#FF37DD;
+      font-size:60px;
+      margin: 0px;
+      }
+
+    p{
+      font-size:20px;
+      font-family: 'EB Garamond';
+      color: black;}
+
+    img {
+      width:500px;
+      height: 500px;
+      border: 2px solid purple;
+      padding: 6px;
+      box-shadow: 6px 4px 8px purple;
+    }
+    }
+
+@media only screen and (min-width: 1200px) {
+    nav {
+      display: flex;
+      position: relative;
+      background-color: #B57EDC;
+      padding:10px;}
+
+    nav ul {
+      margin: 1; }
+
+    nav a {
+      font-size:20px;
+      color: white;
+      font-family:'Playfair display';
+      text-decoration: none;
+     }
+
+    nav li {
+      display: inline-block;
+      margin-left: 250px;}
+
+    nav a:hover {
+      color: #37FF59; }
+
+    img {
+      width:600px;
+      height: 600px;
+      border: 2px solid purple;
+      padding: 6px;
+      box-shadow: 6px 4px 8px purple;
+        }
+
+    .title{
+      color: #FF37DD;
+      text-decoration: none;
+    }
+
+    .title:hover{
+      color: white;
+    }
+
+    h1{
+      text-align:center;
+      font-family:'Sacramento';
+      color:#FF37DD;
+      font-size:60px;
+      margin: 0px;
+    }
+
+    body{
+      background-image: linear-gradient(#710097 18%, #eee0f4 0%);}
+
+    h2{
+      text-align:left;
+      color: pink;
+      font-family: 'gilda display';
+      font-size:25px;
+    }
+
+    p{
+      font-size:20px;
+      font-family: 'EB Garamond';
+      color: black;
+    }
+
+    .project{
+      text-align:center;
+      color: #FFFD92;
+      font-family: 'gilda display';
+      font-size:25px;
+    }
+  }
+
+    footer{
+      text-align:center;}
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;}
+
+    .one{
+      grid-column: 1/3;
+
+    }
+    .two{
+      grid-column: 3/4;
+
+    }
